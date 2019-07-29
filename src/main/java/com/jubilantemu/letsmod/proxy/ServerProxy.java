@@ -1,5 +1,6 @@
 package com.jubilantemu.letsmod.proxy;
 
-public class ServerProxy {
-
+public class ServerProxy extends CommonProxy 
+{
+	
 }
