@@ -1,6 +1,6 @@
 package com.jubilantemu.letsmod;
 
-import com.jubilantemu.letsmod.configuration.ConfigurationHandler;
+import com.jubilantemu.letsmod.handler.ConfigurationHandler;
 import com.jubilantemu.letsmod.proxy.IProxy;
 import com.jubilantemu.letsmod.reference.Reference;
 
@@ -12,7 +12,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION)
+@Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
 public class LetsMod
 {
 	
