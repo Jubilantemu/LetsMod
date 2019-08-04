@@ -1,5 +1,6 @@
 package com.jubilantemu.letsmod.init;
 
+import com.jubilantemu.letsmod.item.ItemAmFlagStarComponent;
 import com.jubilantemu.letsmod.item.ItemLM;
 import com.jubilantemu.letsmod.item.ItemMapleLeaf;
 import com.jubilantemu.letsmod.reference.Reference;
@@ -10,9 +11,11 @@ import cpw.mods.fml.common.registry.GameRegistry;
 public class ModItems 
 {
 	public static final ItemLM mapleLeaf = new ItemMapleLeaf();
+	public static final ItemLM amFlagStarComponent = new ItemAmFlagStarComponent();
 	
 	public static void init()
 	{
 		GameRegistry.registerItem(mapleLeaf, "mapleLeaf");
+		GameRegistry.registerItem(amFlagStarComponent, "amFlagStarComponent");
 	}
 }

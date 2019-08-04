@@ -9,7 +9,6 @@ public class AmFlagWhite extends BlockLM {
 		this.setBlockName("amFlagWhite");
 		this.setBlockTextureName("amFlagWhite");
 		this.lightValue = 15;
-		this.setCreativeTab(CreativeTabLM.LM_TAB);
 		
 	}
 

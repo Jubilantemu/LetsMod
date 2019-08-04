@@ -1,8 +1,10 @@
 package com.jubilantemu.letsmod.creativetab;
 
+import com.jubilantemu.letsmod.init.ModBlocks;
 import com.jubilantemu.letsmod.init.ModItems;
 import com.jubilantemu.letsmod.reference.Reference;
 
+import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
@@ -13,7 +15,7 @@ public class CreativeTabLM
 		@Override
 		public Item getTabIconItem() {
 			
-			return ModItems.mapleLeaf;
+			return ModItems.amFlagStarComponent;
 		}
 		
 		@Override

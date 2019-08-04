@@ -9,7 +9,6 @@ public class BlockFlag extends BlockLM{
 		super();
 		this.setBlockName("flag");
 		this.setBlockTextureName("flag");
-		this.setCreativeTab(CreativeTabLM.LM_TAB);
 	}
 
 }

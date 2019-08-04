@@ -1,5 +1,6 @@
 package com.jubilantemu.letsmod.block;
 
+import com.jubilantemu.letsmod.creativetab.CreativeTabLM;
 import com.jubilantemu.letsmod.reference.Reference;
 
 import cpw.mods.fml.relauncher.Side;
@@ -12,6 +13,7 @@ public class BlockLM extends Block {
 
 	public BlockLM(Material material) {
 		super(material);
+		this.setCreativeTab(CreativeTabLM.LM_TAB);
 	}
 	
 	public BlockLM()

@@ -10,7 +10,6 @@ public class AmFlagBlue extends BlockLM {
 		this.setBlockName("amFlagBlue");
 		this.setBlockTextureName("amFlagBlue");
 		this.lightValue = 15;
-		this.setCreativeTab(CreativeTabLM.LM_TAB);
 	}
 	
 }

@@ -13,7 +13,6 @@ public class ItemMapleLeaf extends ItemLM
 		super();
 		this.setUnlocalizedName("mapleLeaf");
 		this.maxStackSize = 64;
-		this.setCreativeTab(CreativeTabLM.LM_TAB);
 	}
 	
 

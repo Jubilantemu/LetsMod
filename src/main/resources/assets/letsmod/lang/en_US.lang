@@ -1,4 +1,9 @@
+
+#Item Names
 item.letsmod:mapleLeaf.name=Maple Leaf
+item.letsmod:amFlagStarComponent.name=American Flag Star
+
+#Block Names
 tile.letsmod:flag.name=Canadian Flag
 tile.letsmod:amFlagBlue.name=American Flag Blue
 tile.letsmod:amFlagRed.name=American Flag Red

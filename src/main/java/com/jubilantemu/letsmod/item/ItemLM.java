@@ -1,5 +1,6 @@
 package com.jubilantemu.letsmod.item;
 
+import com.jubilantemu.letsmod.creativetab.CreativeTabLM;
 import com.jubilantemu.letsmod.reference.Reference;
 
 import cpw.mods.fml.relauncher.Side;
@@ -13,6 +14,7 @@ public class ItemLM extends Item
 	public ItemLM() 
 	{
 		super();
+		this.setCreativeTab(CreativeTabLM.LM_TAB);
 	}
 	
 	@Override

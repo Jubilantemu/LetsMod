@@ -10,7 +10,6 @@ public class AmFlagStar extends BlockLM {
 		this.setBlockName("amFlagStar");
 		this.setBlockTextureName("amFlagStar");
 		this.lightValue = 15;
-		this.setCreativeTab(CreativeTabLM.LM_TAB);
 	}
 
 }
