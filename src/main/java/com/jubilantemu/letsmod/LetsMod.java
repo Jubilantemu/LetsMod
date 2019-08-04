@@ -1,10 +1,13 @@
 package com.jubilantemu.letsmod;
 
 import com.jubilantemu.letsmod.handler.ConfigurationHandler;
+import com.jubilantemu.letsmod.init.ModBlocks;
+import com.jubilantemu.letsmod.init.ModItems;
 import com.jubilantemu.letsmod.proxy.IProxy;
 import com.jubilantemu.letsmod.reference.Reference;
 import com.jubilantemu.letsmod.utility.LogHelper;
 
+import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.Mod.Instance;
@@ -27,7 +30,12 @@ public class LetsMod
 	public void preInit(FMLPreInitializationEvent event)
 	{
 		ConfigurationHandler.init(event.getSuggestedConfigurationFile());
+		FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 		LogHelper.info("Pre Initialization Complete!");
+		
+		ModItems.init();
+		
+		ModBlocks.init();
 	}
 	
 	@EventHandler
