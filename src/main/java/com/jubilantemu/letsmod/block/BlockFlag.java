@@ -1,5 +1,7 @@
 package com.jubilantemu.letsmod.block;
 
+import com.jubilantemu.letsmod.creativetab.CreativeTabLM;
+
 public class BlockFlag extends BlockLM{
 	
 	public BlockFlag()
@@ -7,7 +9,7 @@ public class BlockFlag extends BlockLM{
 		super();
 		this.setBlockName("flag");
 		this.setBlockTextureName("flag");
-		
+		this.setCreativeTab(CreativeTabLM.LM_TAB);
 	}
 
 }

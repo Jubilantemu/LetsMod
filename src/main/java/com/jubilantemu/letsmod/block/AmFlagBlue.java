@@ -1,5 +1,7 @@
 package com.jubilantemu.letsmod.block;
 
+import com.jubilantemu.letsmod.creativetab.CreativeTabLM;
+
 public class AmFlagBlue extends BlockLM {
 
 	public AmFlagBlue()
@@ -8,6 +10,7 @@ public class AmFlagBlue extends BlockLM {
 		this.setBlockName("amFlagBlue");
 		this.setBlockTextureName("amFlagBlue");
 		this.lightValue = 15;
+		this.setCreativeTab(CreativeTabLM.LM_TAB);
 	}
 	
 }

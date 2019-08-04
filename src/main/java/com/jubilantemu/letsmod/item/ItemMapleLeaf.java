@@ -1,5 +1,6 @@
 package com.jubilantemu.letsmod.item;
 
+import com.jubilantemu.letsmod.creativetab.CreativeTabLM;
 import com.jubilantemu.letsmod.reference.Reference;
 
 import net.minecraft.creativetab.CreativeTabs;
@@ -12,7 +13,7 @@ public class ItemMapleLeaf extends ItemLM
 		super();
 		this.setUnlocalizedName("mapleLeaf");
 		this.maxStackSize = 64;
-		this.setCreativeTab(CreativeTabs.tabDecorations);
+		this.setCreativeTab(CreativeTabLM.LM_TAB);
 	}
 	
 
